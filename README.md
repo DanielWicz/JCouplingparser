@@ -17,7 +17,7 @@ the example below.
 ### Example
 
 ```
-from JCouplingparser import JCoupFileMaker
+from jcoupparser import JCoupFileMaker
 
 jcoup = JCoupFileMaker(jcoupcsv_fname='jcoup.csv',
                        jcoupwrite_fname='jcoup.tbl')
