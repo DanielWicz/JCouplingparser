@@ -3,14 +3,14 @@ import re
 
 
 class JCoupFileMaker:
-    """A class that's pruporse is to create tbl J coupling files from assigned
-       J coupling signal. The assigment is saved into a csv file with a format shown
-       below:
+    """A class that's pruporse is to create tbl J coupling files from a csv with assigned
+       J coupling signals. The assigment is read from a csv file with a format shown
+       as below:
            Hydrogen,Jcouplingconstant
            NH1,4.23
            NH2,6.27
            NH3,2.52
-       To use the class you've to create its object instance with
+       To use the class you have to create its object instance with
        two arguments `jcoup_fname` and `jcoupwrite_fname` as in
        the example below:
 
@@ -24,8 +24,8 @@ class JCoupFileMaker:
     ```
     Arguments:
         jcoup_fname: It is a filename for the csv file with assigned
-                     J couplings.
-        jcoupwrite_fname: It is a filename for J-coup tbl file written by the class.
+                     J couplings. The file have to be present to run the script.
+        jcoupwrite_fname: It is a filename for J-coup tbl file which written under this name.
 
     """
 
