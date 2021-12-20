@@ -27,3 +27,6 @@ jcoup.save_jcoup_file()
 
 ### Usage
 The script is used as it is, imported directly from the directory, where the repository was cloned into.
+
+### Requipments
+Python 3.5 or above
